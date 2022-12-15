@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Multiround Pro';
+}
+p, ul{
+    font-size: 1vw;
+}
+header, footer{
+    background-color: rgb(0, 72, 58);
+}
+/* fonts */
+@font-face {
+    font-family: "ETBembo";
+    src: url("../fonts/ET Book/et-book-roman-line-figures.ttf") format('truetype');
+    font-family: "Multiround Pro";
+    src: url("../fonts/Multiround Pro/MultiroundPro.otf") format('opentype');
+}
+/* header */
+header{
+    width: 100%;
+}
+/* div */
+div.main-box{
+    width: 90vw;
+    margin-left: 2vw;
+}
+div.box-element{
+    width: 6vw;
+    border-radius: 2vw;
+    border-color: rgb(4, 0, 18);
+    border-width: 0.2vw;
+    border-style: solid;
+    padding-left: 1vw;
+    margin-right: 4vw;
+}
+div.flex{
+    display: flex
+}
+div.symptoms{
+    display: flex;
+    width: 90vw;
+}
+/* p */
+header div, footer p{
+    margin: 0 0 0 1.2vw;
+    padding: 1.2vw 0px 1.2vw 0px;
+    font-size: 2.5vw;
+    color: white;
+}
+p.center{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+div.box-element p{
+    margin: 0px;
+}
+p.element{
+    font-size: 2vw;
+}
+p.mass, p.number, p.name{
+    font-size: 1vw;
+}
+p.mass, p.number{
+    margin-top: 0.5vw !important;
+}
+p.mass{
+    padding-bottom: 0.2vw;
+}
+/* a */
+a.top{
+    position: fixed;
+    font-size: 3vw;
+    bottom: 1vw;
+    right: 1vw;
+    color: black;
+    text-decoration: none;
+}
+header div a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.5vw solid white;
+    padding-bottom: 1vw;
+    margin-left: 2vw;
+
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear; 
+}
+/* ul li */
+ul{
+    padding-left: 1vw;
+}
+/* footer */
+footer{
+    width: 100%;
+}
