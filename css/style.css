@@ -97,7 +97,7 @@ ul{
 footer{
     width: 100%;
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:550px) {
     p, ul{
         font-size: 2vw;
     }
