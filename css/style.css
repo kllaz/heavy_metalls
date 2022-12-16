@@ -97,3 +97,49 @@ ul{
 footer{
     width: 100%;
 }
+@media screen and (max-width:350px) {
+    p, ul{
+        font-size: 2vw;
+    }
+    /* header */
+    header{
+        height: 10vw;
+    }
+    /* div */
+    header div{
+        padding-top: 3vw !important; 
+        padding-bottom: 3vw !important;
+    }
+    div.hg.flex{
+        width: 90vw;
+    }
+    /* span */
+    header span{
+        font-size: 4vw;
+    }
+    /* a */
+    header div a{
+        font-size: 2vw;
+        padding-bottom: 2.3vw;
+    }
+    /* img */
+    img#pb{
+        margin-top: 10vw !important;
+    }
+    img#mn{
+        margin-top: 5vw !important;
+    }
+    img#cd{
+        margin-top: 7vw !important;
+    }
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 0.5vw;
+    background-color: none;
+    height: 0.5vw;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 72, 58);
+}
